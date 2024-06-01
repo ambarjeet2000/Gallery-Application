@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Gallry - search your photo</title>
+    <link rel="stylesheet" href="./assets/common.css" />
+
+    <link rel="stylesheet" href="./assets/detail.css" />
+</head>
+<body>
+
+    <nav>
+        <a href="./"> <img src="./assets/shopping-basket.png" alt="Logo" class="logo"></a>
+        <a href="./"><h1 class="title">P!c_Ba$Ket</h1></a>
+        <form action="./search.html" method="get">
+            <input type="text" name="q" autocomplete="off" class="search" placeholder="Search_anything"/>
+            <input type="submit" value="Search" class="search" />
+        </form>
+        <!-- <h1>Hello</h1> -->
+    </nav>
+
+    <section>
+        <h1 class="heading">&lt;DETAIL FOR - <span id="image_id"></span> /&gt;</h1>
+        <div class="detail">
+            <img alt="Primary" id="detail_image" />
+            <div class="content">
+                <h1 id="desc_text" class="description"></h1>
+                <br>
+                <h3>Uploaded by - @ <span id="username"></span></h3>
+                <br>
+                <h4>Date - <span id="upload_date"></span></h4>
+                <br>
+                <h5><span id="like_count"></span> Likes (<span id="view_count"></span>Views)</h5>
+                <br>
+                <br>
+                <br>
+                <h1 id="alt_desc" class="description"></h1>
+                <br>
+                <br>
+                <br>
+                <h5>Base Color</h5>
+                <br>
+                <div class="image_color" id="image_color">
+                    <span id="color_text"></span>
+                </div>
+                <br>
+                <br>
+                <a target="_blank" id="download_link" class="button">&lt;<b>DOWNLOAD</b> /&gt;</a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <img src="/assets/home.png" alt="" width="25px">&nbsp;
+        <a href="./"><h5>Home</h5></a>
+        &nbsp;&nbsp;&nbsp;
+        <h1>|</h1>&nbsp;&nbsp;&nbsp;
+        <img src="./assets/india.png" alt="" width="25px">&nbsp;
+        <h5>Designed and Developed by Ambarjeet</h5>
+        <img src="./assets/namaskara.png" alt="" width="25px">&nbsp;
+
+        <h1>|</h1>&nbsp;&nbsp;&nbsp;
+        <img src="/assets/github.png" alt="" width="25px">&nbsp;
+        <a href="https://github.com/ambarjeet2000"><h5>Github</h5></a>
+
+    </footer>
+
+    <script src="/assets/common.js"></script>
+    <script src="./assets/detail.js"></script>
+    
+</body>
+</html>
